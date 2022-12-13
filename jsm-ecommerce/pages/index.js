@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { HeroBanner, Product, Footer } from '../components'
+import { HeroBanner, Product, FooterBanner } from '../components'
 import { client } from '../lib/client'
 
 const Home = ({ products, bannerData }) => {
@@ -19,7 +19,7 @@ const Home = ({ products, bannerData }) => {
         }
       </div>
 
-      <Footer />
+      <FooterBanner footerBanner={bannerData && bannerData[0]}/>
     </>
   )
 }
