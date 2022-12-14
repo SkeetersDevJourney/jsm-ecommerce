@@ -8,9 +8,9 @@ body, * {
 
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
-} */
+}
 
 a {
   color: inherit;
